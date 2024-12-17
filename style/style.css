@@ -148,7 +148,7 @@ nav ul {
 
 /* Media Objects */
 
-
+/* 
 img {
     max-width: 100%;
     display: block;
@@ -166,10 +166,35 @@ img {
     padding: 10px;
 }
 
-/* .image img{
+.image img{
     max-width: 100px;
-} */
+}
 
 .image {
     flex: 1;
+} */
+
+
+
+/* Flipping the Media Object */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.media {
+    border: 2px dotted rgb(96 139 168);
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.flipped {
+    flex-direction: row-reverse;
+}
+
+
+.media .content {
+    flex: 1;
+    padding: 10px;
 }
