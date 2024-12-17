@@ -30,9 +30,7 @@ nav ul {
 
 
 /* Space distributed within the items */
-
-
-nav {
+/* nav {
     border: 2px solid #eeeeee;
    
 }
@@ -57,4 +55,36 @@ nav a {
 
 nav li {
     flex: auto;
+} */
+
+
+
+
+
+/* Split navigation */
+
+nav {
+    border: 2px solid #eeeeee;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    border: 2px solid rgb(96 139 168);
+    border-radius: 5px;
+    background-color: rgb(96 139 168 / 0.2);
+    padding: 10px;
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    gap: 20px;
+}
+
+.push-right {
+    margin-left: auto;
 }
