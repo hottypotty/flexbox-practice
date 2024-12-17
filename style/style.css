@@ -114,7 +114,7 @@ nav ul {
 
 /* Card layout pushing footer down  */
 
-body {
+/* body {
     font-family: sans-serif;
 }
 
@@ -141,4 +141,35 @@ body {
 .card footer{
     background-color: rgb(96 139 168 / 0.2);
     padding: 10px;
+} */
+
+
+
+
+/* Media Objects */
+
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.media {
+    border: 2px dotted rgb(96 139 168);
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.media .content {
+    flex:3;
+    padding: 10px;
+}
+
+/* .image img{
+    max-width: 100px;
+} */
+
+.image {
+    flex: 1;
 }
